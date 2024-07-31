@@ -7,16 +7,14 @@ function Services() {
       </div>
 
       <div class="container">
-
         <div class="row gy-4">
-
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item  position-relative">
               <div class="icon">
                 <i class="fa-solid fa-mountain-city"></i>
               </div>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <h3>Hospital Loans</h3>
+              <p>Empower your hospital with tailored loan options.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -26,8 +24,8 @@ function Services() {
               <div class="icon">
                 <i class="fa-solid fa-arrow-up-from-ground-water"></i>
               </div>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <h3>Contractor Loans</h3>
+              <p>Affordable loans for contractor growth and success.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -37,8 +35,8 @@ function Services() {
               <div class="icon">
                 <i class="fa-solid fa-compass-drafting"></i>
               </div>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <h3>Unsecured Business Loans</h3>
+              <p>Secure funds without collateral for your business</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -48,8 +46,8 @@ function Services() {
               <div class="icon">
                 <i class="fa-solid fa-trowel-bricks"></i>
               </div>
-              <h3>Asperiores Commodit</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <h3>Supplier Fianance</h3>
+              <p>Optimize cash flow with supplier finance solutions.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -59,8 +57,8 @@ function Services() {
               <div class="icon">
                 <i class="fa-solid fa-helmet-safety"></i>
               </div>
-              <h3>Velit Doloremque</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <h3>Home Loans</h3>
+              <p>Flexible home loans tailored to you.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -70,8 +68,8 @@ function Services() {
               <div class="icon">
                 <i class="fa-solid fa-arrow-up-from-ground-water"></i>
               </div>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <h3>Loan Against Special Properties</h3>
+              <p>Finance your needs with special property loans.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>

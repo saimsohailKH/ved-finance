@@ -42,16 +42,15 @@ import GLightbox from 'glightbox'
   // }
   // mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
 
-  // /**
-  //  * Hide mobile nav on same-page/hash links
-  //  */
+  // // /**
+  // //  * Hide mobile nav on same-page/hash links
+  // //  */
   // document.querySelectorAll('#navmenu a').forEach(navmenu => {
   //   navmenu.addEventListener('click', () => {
   //     if (document.querySelector('.mobile-nav-active')) {
   //       mobileNavToogle();
   //     }
   //   });
-
   // });
 
   /**
