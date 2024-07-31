@@ -1,16 +1,30 @@
 import './App.css';
 import logo from './assets/img/logo.png';
-import c1 from './assets/img/hero-carousel/hero-carousel-1.jpg';
-import c2 from './assets/img/hero-carousel/hero-carousel-2.jpg';
-import c3 from './assets/img/hero-carousel/hero-carousel-3.jpg';
-import c4 from './assets/img/hero-carousel/hero-carousel-4.jpg';
+import c1 from './assets/img/c1.jpg';
+import c2 from './assets/img/hero-carousel/c2.jpeg';
+import c3 from './assets/img/hero-carousel/c3.jpeg';
+import c4 from './assets/img/hero-carousel/c4.jpeg';
 import c5 from './assets/img/hero-carousel/hero-carousel-5.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import "bootstrap-icons/font/bootstrap-icons.css";
+import '@fortawesome/fontawesome-free/css/all.css';
+import Services from './components/services';
+import Testimonials from './components/testimonials';
+import Footer from './components/footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import './main';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, [])
+
   return (
     <div className="App">
       <header id="header" className="header d-flex align-items-center fixed-top">
@@ -48,7 +62,6 @@ function App() {
             </ul>
             <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
           </nav>
-
         </div>
       </header>
 
@@ -877,6 +890,56 @@ function App() {
           </div>
         </section> */}
       </main>
+
+      <Services />
+
+      <section id="alt-services" class="alt-services section">
+        <div class="container">
+          <div class="row justify-content-around gy-4">
+            <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/alt-services.jpg" alt=""/></div>
+
+            <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+              <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+              <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+
+              <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-easel flex-shrink-0"></i>
+                <div>
+                  <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                </div>
+              </div>
+
+              <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                </div>
+              </div>
+
+              <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-brightness-high flex-shrink-0"></i>
+                <div>
+                  <h4><a href="" class="stretched-link">Dine Pad</a></h4>
+                  <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                </div>
+              </div>
+
+              <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
+                <i class="bi bi-brightness-high flex-shrink-0"></i>
+                <div>
+                  <h4><a href="" class="stretched-link">Tride clov</a></h4>
+                  <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Testimonials />
+      <Footer />
     </div>
   );
 }

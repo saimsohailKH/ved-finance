@@ -27,8 +27,6 @@
    */
   const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
 
-  debugger
-
   function mobileNavToogle() {
     document.querySelector('body').classList.toggle('mobile-nav-active');
     mobileNavToggleBtn.classList.toggle('bi-list');
@@ -141,7 +139,6 @@
         }
       }, false);
     });
-
   });
 
   /**
