@@ -2,7 +2,7 @@ function OurProcess() {
   const list = [
     {
       title: 'Step 1',
-      description: 'Contact us via the form.',
+      description: 'Contact us via the chatbox.',
     },
     {
       title: 'Step 2',
