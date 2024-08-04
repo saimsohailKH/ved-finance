@@ -1,9 +1,11 @@
+import Logo from '../assets/img/logo.png'
+
 function Footer() {
   return (
     <footer id="footer" class="footer dark-background">
       <div class="container footer-top">
         <div class="row gy-4">
-          <div class="col-lg-5 col-md-6 footer-about">
+          <div class="col-lg-3 col-md-6 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
               <span class="sitename">VED Finance</span>
             </a>
@@ -31,7 +33,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-3 footer-links">
+          <div class="col-lg-3 col-md-3 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><a href="/services">Hospital Loans</a></li>
@@ -42,11 +44,17 @@ function Footer() {
               <li><a href="/services">Loan Against Special Properties</a></li>
             </ul>
           </div>
+
+          <div class="col-lg-3 col-md-3 footer-links">
+            <div className="footer-contact pt-3">
+              <p><b>Disclaimer: </b>VED Finance Group is a trading entity for Credit Representative number 504744 authorised under Australian Credit License 384324. </p>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="container copyright text-center mt-4">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">VED Finance</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">2024 Ved Finance Group ACN 619 950 873</strong> <span>All Rights Reserved</span></p>
         <div class="credits">
           Designed by Sprial Square
         </div>

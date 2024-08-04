@@ -15,8 +15,8 @@ function Stats() {
               <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
               <div>
                 <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                <PureIncrement start={0} end={232} duration={3} className="purecounter" />
-                <p>Happy Clients</p>
+                <PureIncrement start={0} end={15} duration={3} className="purecounter" />
+                <p>Years of Experience</p>
               </div>
             </div>
           </div>
@@ -25,8 +25,8 @@ function Stats() {
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
               <div>
-                <PureIncrement start={0} end={521} duration={3} className="purecounter" />
-                <p>Projects</p>
+                <PureIncrement start={0} end={250} duration={3} className="purecounter" />
+                <p>Successful Loans</p>
               </div>
             </div>
           </div>
@@ -35,8 +35,8 @@ function Stats() {
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-headset color-green flex-shrink-0"></i>
               <div>
-                <PureIncrement start={0} end={1463} duration={3} className="purecounter" />
-                <p>Hours Of Support</p>
+                <PureIncrement start={0} end={300} duration={3} className="purecounter" />
+                <p>Happy Customers</p>
               </div>
             </div>
           </div>
@@ -45,8 +45,8 @@ function Stats() {
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-people color-pink flex-shrink-0"></i>
               <div>
-                <PureIncrement start={0} end={15} duration={3} className="purecounter" />
-                <p>Hard Workers</p>
+                <PureIncrement start={0} end={2000000} duration={3} className="purecounter" />
+                <p>Cost for clients</p>
               </div>
             </div>
           </div>
