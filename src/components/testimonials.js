@@ -76,7 +76,17 @@ function Testimonials() {
         <div class="swiper init-swiper" ref={swiperContainerRef}>
           <div className="swiper-wrapper">
               < Swiper
-                slidesPerView={2}
+                breakpoints={{
+                  320: {
+                    slidesPerView: 1,
+                  },
+                  640: {
+                    slidesPerView: 1,
+                  },
+                  1024: {
+                    slidesPerView: 2,
+                  },
+                }}
                 modules={[Navigation, Pagination, Autoplay]}
                 pagination={{
                   clickable: true,
