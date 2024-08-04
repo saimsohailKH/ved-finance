@@ -14,10 +14,9 @@ function Footer() {
               <p><strong>Email:</strong> <span>Info@vedfinancegroup.com</span></p>
             </div>
             <div class="social-links d-flex mt-4">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.facebook.com/vedfinancegroup.com.au" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/ved_finance_group?igsh=aHYxYW4xMTV4Y2Q2&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/amrinder-singh-3285565a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
 
