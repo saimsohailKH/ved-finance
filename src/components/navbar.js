@@ -54,7 +54,7 @@ function NavBar(props) {
             <li><a href="/" className={activePage('home')}>Home</a></li>
             <li><a href="/about" className={activePage('about')}>About</a></li>
             <li><a href="/services" className={activePage('services')}>Our Services</a></li>
-            <li><a href="projects.html">Our process</a></li>
+            <li><a href="/process" className={activePage('process')}>Our process</a></li>
             <li><a href="/contact" className={activePage('contact')}>Contact</a></li>
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>

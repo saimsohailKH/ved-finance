@@ -13,7 +13,6 @@ function Breadcrumbs(props) {
                   if (link.href === '') {
                     return (<li key={index}>{link.title}</li>);
                   } else {
-                    console.log(link);
                     return (<li key={index} className="current"><a href={link.href}>{link.title}</a></li>);
                   }
                 })

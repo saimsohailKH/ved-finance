@@ -13,6 +13,7 @@ import c2 from '../assets/img/hero-carousel/c2.jpeg';
 import c4 from '../assets/img/hero-carousel/c4.jpeg';
 import Solutions from '../components/solutions';
 import Stats from '../components/stats';
+import OurProcess from '../components/ourProcess';
 
 function Landing() {
   useEffect(() => {
@@ -63,6 +64,7 @@ function Landing() {
 
         <Services />
         <Solutions />
+        <OurProcess />
         <Stats />
         <Testimonials />
         <Footer />
