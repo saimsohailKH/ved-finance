@@ -78,7 +78,6 @@ function Testimonials() {
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""/>
                   <h3>Sara Wilsson</h3>
                   <h4>Designer</h4>
                   <div class="stars">
@@ -96,7 +95,6 @@ function Testimonials() {
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""/>
                   <h3>Sara Wilsson</h3>
                   <h4>Designer</h4>
                   <div class="stars">

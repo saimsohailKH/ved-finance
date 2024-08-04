@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import '../App.css';
+import Logo from '../assets/img/logo.png'
 
 const toggleScrolled = () => {
   const selectBody = document.querySelector('body');
@@ -44,17 +45,17 @@ function NavBar(props) {
       <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
         <a href="/" className="logo d-flex align-items-center">
-          <h1 className="sitename">VED Finance Group</h1> <span>.</span>
+          <img src={Logo} alt="" />
+          {/* <h1 className="sitename">VED Finance Group</h1> <span>.</span> */}
         </a>
 
         <nav id="navmenu" className="navmenu">
           <ul>
             <li><a href="/" className={activePage('home')}>Home</a></li>
             <li><a href="/about" className={activePage('about')}>About</a></li>
-            <li><a href="/services" className={activePage('services')}>Services</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/services" className={activePage('services')}>Our Services</a></li>
+            <li><a href="projects.html">Our process</a></li>
+            <li><a href="/contact" className={activePage('contact')}>Contact</a></li>
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>

@@ -8,10 +8,10 @@ function Footer() {
               <span class="sitename">VED Finance</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+61 433 892 312</span></p>
-              <p><strong>Email:</strong> <span>info@vedfinancegroup.com</span></p>
+              <p>Address - 1042 Western Hwy</p>
+              <p>Caroline Springs, VIC - 3023</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>0433892312</span></p>
+              <p><strong>Email:</strong> <span>Info@vedfinancegroup.com</span></p>
             </div>
             <div class="social-links d-flex mt-4">
               <a href=""><i class="bi bi-twitter-x"></i></a>

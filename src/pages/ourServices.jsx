@@ -3,6 +3,7 @@ import NavBar from "../components/navbar";
 import Services from "../components/services";
 import AboutUsCoverImage from '../assets/img/page-title-bg.jpg';
 import Footer from "../components/footer";
+import Testimonials from "../components/testimonials";
 
 function OurServices() {
   const links = [
@@ -19,8 +20,9 @@ function OurServices() {
   return (
     <>
       <NavBar currentPage='services' />
-      <Breadcrumbs pageTitle='Services' links={links} image={AboutUsCoverImage} />
+      <Breadcrumbs pageTitle='Our Services' links={links} image={AboutUsCoverImage} />
       <Services />
+      <Testimonials />
       <Footer />
     </>
   );

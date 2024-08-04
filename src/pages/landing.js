@@ -12,6 +12,7 @@ import c1 from '../assets/img/c1.jpg';
 import c2 from '../assets/img/hero-carousel/c2.jpeg';
 import c4 from '../assets/img/hero-carousel/c4.jpeg';
 import Solutions from '../components/solutions';
+import Stats from '../components/stats';
 
 function Landing() {
   useEffect(() => {
@@ -29,7 +30,7 @@ function Landing() {
             <div class="container">
               <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-6 text-center">
-                  <h2>VED Finance Group</h2>
+                  <h2>VED - Vision, Education, Driven</h2>
                   <p>The VED Finance Group is based in Australia and prides itself on its vision, education, and passion for finding the right solution for clients' financial needs. If you would like more information, please feel free to contact us</p>
                   <a href="#get-started" class="btn-get-started">Get Started</a>
                 </div>
@@ -62,6 +63,7 @@ function Landing() {
 
         <Services />
         <Solutions />
+        <Stats />
         <Testimonials />
         <Footer />
       </main>

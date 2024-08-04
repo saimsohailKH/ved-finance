@@ -12,6 +12,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import OurServices from './pages/ourServices';
+import Contact from './pages/contact';
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/" element={<Landing />} />
         <Route path="/about" element={<AboutUs />} />
         <Route exact path="/services" element={<OurServices />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
