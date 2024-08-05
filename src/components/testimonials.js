@@ -1,11 +1,8 @@
-import { useEffect, useRef } from 'react';
-// import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import 'swiper/swiper-bundle.css';
 
 function Testimonials() {
-  const swiperContainerRef = useRef(null);
   const list = [
     {
       title: 'Singhwithclass',
@@ -34,36 +31,64 @@ function Testimonials() {
     {
       title: 'Gagan Dhiman',
       description: 'Amrinder and the team at VED Finance Group are exceptional to work with and have a great understanding of lending and can tailor solutions accordingly. Highly recommend their services to anyone!'
+    },
+    {
+      title: 'Shahmir Naqvi',
+      description: 'Amrinder has been absolutely incredible with helping us with our first home loan. Everything from answering all questions, replying to emails very quickly and always making us feel important. I honestly cannot recommend him enough.'
+    },
+    {
+      title: 'Srinivas R',
+      description: 'Very professional Amrinder made  home buying process so easy and helped me understand what was happening every step of the way and got  best rates deal in the best possible way.'
+    },
+    {
+      title: 'Preet Nafri',
+      description: 'Couldn’t ask for a more helpful and supportive broker team! Interest rate increases were really getting to us, so we reached back out to Amrinder and the team at VED Finance Group who helped us to get a better deal. Super easy and very happy with their service!'
+    },
+    {
+      title: 'Navkirat kaur',
+      description: 'Amrinder and his team is professional and will get the job done. He got me the best deal in home loan and I would highly recommend him for any mortgage related services.'
+    },
+    {
+      title: 'Gurpreet Kaur',
+      description: 'Amrinder is a highly reliable and professional broker.He has provided us with timely assistance and always patiently responds to our questions promptly. People in need of loans can confidently work with him.He will go to the extra mile to assist you.'
+    },
+    {
+      title: 'Yadwindr Aulakh',
+      description: 'Mr. Singh has extensive knowledge of his industry. He has amazing service, he is supportive and provides hassle free service. Highly recommend to anyone who needs a finance broker.'
+    },
+    {
+      title: 'shubham Thakur',
+      description: 'We had a  great experience with  Amrinder. He is very professional and happily answered all our questions. Will definitely recommend him for finance requirements.'
+    },
+    {
+      title: 'Goma Dangal',
+      description: 'Just would like to say thank you for everything.you are the best.don’t have enough words to describe how wonderful you are.you deserve all the best.good luck for your future.once again thank you so much.'
+    },
+    {
+      title: 'Navneet “Nav” Deo',
+      description: 'Excellent service and competitive fee on my home loan. This guy will take your case professionally and give you the best advice during the process.  I have recommended several of my friends and they are all very very happy with the service and results.'
+    },
+    {
+      title: 'Jaswinder Khurana',
+      description: 'Not one actually many of my friends used their service. Amrinder and his team is very professional and they like to get the best deal for their clients. Keep up the good work guys. All the best.'
+    },
+    {
+      title: 'GURPREET SINGH',
+      description: 'I am very pleased with the service of VED finance group. They helped me a lot at every step. I highly recommend that if you need any support to get your loan done contact them asap.'
+    },
+    {
+      title: 'Prajjun Reddy Nelakurthi',
+      description: 'Such a great Team. Processed my home & Construction loan in 2 weeks time. They guided me step by step. I would definitely recommend VED Finance.'
+    },
+    {
+      title: 'Ravi Bhatia',
+      description: 'Amazing! The whole process was smooth and got car loan approved in no time. Thank you so much. Highly recommend if someone is looking for car loan.'
+    },
+    {
+      title: 'Sunny Singh',
+      description: 'Mr amrinder is best guy to deal with. The way he explains about every situation is so easy to understand every expect of loans and market. Will recommened to everyone and will go back to him in future.'
     }
   ]
-
-  useEffect(() => {
-    // if (swiperContainerRef.current) {
-    //   new Swiper(swiperContainerRef.current, {
-    //     loop: true,
-    //     speed: 600,
-    //     autoplay: {
-    //       delay: 5000,
-    //     },
-    //     slidesPerView: 'auto',
-    //     pagination: {
-    //       el: '.swiper-pagination',
-    //       type: 'bullets',
-    //       clickable: true,
-    //     },
-    //     breakpoints: {
-    //       320: {
-    //         slidesPerView: 1,
-    //         spaceBetween: 40,
-    //       },
-    //       1200: {
-    //         slidesPerView: 2,
-    //         spaceBetween: 20,
-    //       },
-    //     },
-    //   });
-    // }
-  }, [])
 
   return (
     <section id="testimonials" class="testimonials section">
@@ -73,9 +98,10 @@ function Testimonials() {
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper init-swiper" ref={swiperContainerRef}>
+        <div class="swiper init-swiper">
           <div className="swiper-wrapper">
               < Swiper
+                loop={true}
                 breakpoints={{
                   320: {
                     slidesPerView: 1,
@@ -93,7 +119,6 @@ function Testimonials() {
                   dynamicBullets: true,
                   type: 'bullets',
                 }}
-                loop={true}
               >
                 {
                   list.map((element, index) => (

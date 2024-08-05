@@ -76,6 +76,11 @@
   --nav-dropdown-hover-color: #feb900; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
+.purecounter-plus::after {
+  content: "+";
+  margin-left: 2px;
+}
+
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
@@ -193,7 +198,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 78px;
+  max-height: 88px;
   margin-right: 8px;
 }
 
