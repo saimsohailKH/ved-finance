@@ -46,14 +46,35 @@ function NavBar(props) {
 
         <a href="/" className="logo d-flex align-items-center">
           <img src={Logo} alt="" />
-          {/* <h1 className="sitename">VED Finance Group</h1> <span>.</span> */}
         </a>
 
         <nav id="navmenu" className="navmenu">
           <ul>
             <li><a href="/" className={activePage('home')}>Home</a></li>
+            <li class="dropdown"><a href="#" className={activePage('services')}><span>Our Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#"><span>For Individuals</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="/service/1">Home Loan</a></li>
+                    <li><a href="/service/2">Personal Loan</a></li>
+                    <li><a href="/service/3">Car Loan</a></li>
+                    <li><a href="/service/4">Refinance / Debt Consolidation</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>For Corporates</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="/service/5">Commercial Loans</a></li>
+                    <li><a href="/service/6">Cash Flow Lending</a></li>
+                    <li><a href="/service/7">Asset / Equipment Finance</a></li>
+                    <li><a href="/service/8">Line of credit / Business Overdraft</a></li>
+                    <li><a href="/service/9">LO Doc Loan</a></li>
+                  </ul>
+                </li>
+                <li><a href="/service/10">Debt Removal</a></li>
+                <li><a href="/service/11">Utility Connection Service</a></li>
+              </ul>
+            </li>
             <li><a href="/about" className={activePage('about')}>About</a></li>
-            <li><a href="/services" className={activePage('services')}>Our Services</a></li>
             <li><a href="/process" className={activePage('process')}>Our process</a></li>
             <li><a href="/contact" className={activePage('contact')}>Contact</a></li>
           </ul>

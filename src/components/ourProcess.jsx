@@ -6,7 +6,7 @@ function OurProcess() {
     },
     {
       title: 'Step 2',
-      description: 'Book a meeting.​'
+      description: 'Book a meeting.'
     },
     {
       title: 'Step 3',

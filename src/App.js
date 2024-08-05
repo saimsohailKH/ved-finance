@@ -14,6 +14,7 @@ import { useEffect } from 'react';
 import OurServices from './pages/ourServices';
 import Contact from './pages/contact';
 import Process from './pages/process';
+import Service from './pages/service';
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
         <Route exact path="/services" element={<OurServices />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path='/process' element={<Process />} />
+        <Route exact path='/service/:id' element={<Service />} />
       </Routes>
     </Router>
   );
