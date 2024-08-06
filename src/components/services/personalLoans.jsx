@@ -34,11 +34,11 @@ function PersonalLoan() {
                   <p>
                     <b>Benefits – </b>
                     <br/>
-                    – Not secured against any personal assets
+                    - ⁠Secured and Unsecured loans as per your personal circumstances and preferences 
                     <br/>
-                    – Easy repayment options
+                    –  ⁠⁠Easy repayment options
                     <br/>
-                    – No penalty (mostly) for paying it out early
+                    – ⁠⁠Minimal to No Early exit costs
                   </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">

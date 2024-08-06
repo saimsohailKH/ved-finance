@@ -12,7 +12,7 @@ import Equipment from "../components/services/Equipment";
 import LineOfCredit from "../components/services/LineOfCredit";
 import LoDocLoans from "../components/services/LoDocLoans";
 import DebtRemoval from "../components/services/DebtRemoval";
-import UtilityConnectionService from "../components/services/UtilityConnectionService";
+import SmsfLoans from "../components/services/SmsfLoans";
 
 function Service() {
   const { id } = useParams()
@@ -34,7 +34,7 @@ function Service() {
       {service.id === 8 && <LineOfCredit />}
       {service.id === 9 && <LoDocLoans />}
       {service.id === 10 && <DebtRemoval />}
-      {service.id === 11 && <UtilityConnectionService />}
+      {service.id === 11 && <SmsfLoans />}
       <Footer />
     </>
   );

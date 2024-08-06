@@ -28,11 +28,11 @@ function LineOfCredit() {
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                   <h3>Line of credit / Business Overdraft</h3>
                   <p class="fst-italic">
-                    Lines of credit are approved “loan” facilities that you can draw down on at any time that suits your business, without any further approvals. Cash flow line of credit is very common among businesses. It sits open in your business until you need to use it to pay bills, wages, purchase etc. It does not cost you anything unless you use it. It is a safety net, but unlike a large pile of expensive cash sitting in your account and slowly dwindling from repayments and interest, it sits costing nothing until its needed. When the opportunity to use the cash to grow or trade more arises, the facility is available to draw on, at the opportune time for your business. The repayment terms are often shorter, in the 2-6 months, meaning that the facility is paid off with the cashflow generated from the increased trade, and ready to draw down upon again when opportunity or need arises.
+                    Lines of credit are flexible loan facilities that allow you to draw funds as needed without requiring additional approvals. A cash flow line of credit is commonly used by businesses and remains available until you need it for paying bills, wages, or making purchases. It incurs no cost unless you use it, serving as a safety net. Unlike a large sum of cash that depletes over time due to repayments and interest, a line of credit costs nothing until drawn upon. When opportunities for growth or increased trade arise, you can access the funds as needed. Repayment terms are typically short, ranging from 2 to 6 months, and are designed to be repaid with the cash flow generated from increased business activity, allowing you to use the facility again when required.
                   </p>
 
                   <p>
-                    At VED, we partner with majority of lenders assisting businesses out there with a cash flow issue and providing them that much needed safety net.
+                    At VED, we partner with a wide range of lenders to help businesses address cash flow issues and provide the essential safety net they need.
                   </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">

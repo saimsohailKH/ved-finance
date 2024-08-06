@@ -1,4 +1,5 @@
 import Logo from '../assets/img/logo.png'
+import { services } from '../data/services';
 
 function Footer() {
   return (
@@ -36,12 +37,11 @@ function Footer() {
           <div class="col-lg-3 col-md-3 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><a href="/services">Hospital Loans</a></li>
-              <li><a href="/services">Contractor Loans</a></li>
-              <li><a href="/services">Unsecured Business Loans</a></li>
-              <li><a href="/services">Supplier Fianance</a></li>
-              <li><a href="/services">Home Loans</a></li>
-              <li><a href="/services">Loan Against Special Properties</a></li>
+              {
+                services.map((s, index) => (
+                  <li key={index}><a href={`/service/${s.id}`}>{s.title}</a></li>
+                ))
+              }
             </ul>
           </div>
 

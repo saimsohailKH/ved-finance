@@ -28,27 +28,27 @@ function CashFlowLending() {
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                   <h3>Cash Flow lending</h3>
                   <p class="fst-italic">
-                    Cash flow is an issue that keeps a lot of business owners awake at night.
+                    Cash flow is a concern that often keeps many business owners up at night.
                   </p>
 
                   <p class="fst-italic">
-                    Aussie small businesses, going through a rough patch or a seasonal downturn can have access to help. Cash flow lending is an answer to a lot of those problems.
+                    Australian small businesses facing a rough patch or seasonal downturn can find support through cash flow lending, which can address many of these challenges.
                   </p>
 
                   <p>
-                    It comes in the form of short-term loans which can be used to pay wages, buying an equipment or grab an opportunity. 
+                    It takes the form of short-term loans that can be used for paying wages, purchasing equipment, or seizing opportunities.
                   </p>
 
-                  <h5>Why would you as a business, prefer Cash Flow lending?</h5>
+                  <h5>Why might your business prefer cash flow lending?</h5>
 
                   <ul>
-                    <li><i class="bi bi-check2-all"></i> <span>Fast – Time to apply and get a decision is fast</span></li>
-                    <li><i class="bi bi-check2-all"></i> <span>Simpler – no need to provide complex documents</span></li>
-                    <li><i class="bi bi-check2-all"></i> <span>Structured as per your business – Repayments work as per your cash flow</span></li>
-                    <li><i class="bi bi-check2-all"></i> <span>Clear – Total payout is clear at the start with no penalties to payout</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Quick – The application process and decision time are both fast.</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Simpler – No need to submit complex documents.</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Tailored to your business – Repayments align with your cash flow.</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>Transparent – The total payout is clear from the beginning, with no penalties for early repayment.</span></li>
                   </ul>
 
-                  <p>If your business needs an urgent cash injection , Hit us up at VED and leave it to us</p>
+                  <p>If your business needs an urgent cash injection, reach out to us at VED and let us handle it for you.</p>
                 </div>
 
                 <div class="col-lg-6 order-1 order-lg-2 text-center">

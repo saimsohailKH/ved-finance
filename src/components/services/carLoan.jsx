@@ -27,7 +27,11 @@ function CarLoan() {
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                   <h3>Car Loans</h3>
                   <p class="fst-italic">
-                    It’s good to get a pre-approval before you go to the dealer or commit someone to purchase their vehicle At VED, we have access to many lenders with whom we can negotiate and get you the best deal possible without any hidden costs and pressure from dealers.There are different car loans for different customer and vehicle types.This is where we and our panel of lenders come in to play. We make sure you are on the best terms and product suited to your needs.
+                    It's wise to obtain pre-approval before visiting a dealership or committing to buying a vehicle. At VED, we have access to numerous lenders and can negotiate to secure the best deal for you, free from hidden costs and dealer pressure. With various car loans available for different customer and vehicle types, our panel of lenders ensures you get the best terms and a product tailored to your needs.
+                  </p>
+
+                  <p>
+                    It’s good to get a pre-approval before you go to the dealer or commit someone to purchase their vehicle At VED, we have access to many lenders with whom we can negotiate and get you the best deal possible without any hidden costs and pressure from dealers.There are different car loans for different customer and vehicle types.This is where we and our panel of lenders come in to play. We make sure you are on the best terms and product suited to your needs. Loans can be Business or Personal (Consumer)
                   </p>
                 </div>
 

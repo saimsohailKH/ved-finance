@@ -30,12 +30,12 @@ function LoDocLoans() {
                   <h6>What is a Lo Doc Loan?</h6>
 
                   <p>
-                    Low Documentation (Low Doc) loans provide flexible financing solutions for self-employed people. Low Doc loans are designed for customers who have an income and assets, but are unable to provide the usual verification documentation like financial statements and in some cases, tax returns.
+                    Low Documentation (Low Doc) loans offer flexible financing solutions for self-employed individuals. These loans are tailored for customers who have income and assets but are unable to provide the typical verification documentation, such as financial statements and, in some cases, tax returns.
                   </p>
 
-                  <p>Lo Doc loans provide a quick solution rather than waiting for the financials and losing a potential opportunity.</p>
-                  <p>At VED, we partner with a lot of lenders who will assess your application just on accountants and self-declaration, so you do not miss out on a opportunity.</p>
-                  <p>To know more about the fine print and T&C’s , let’s get in touch</p>
+                  <p>Lo Doc loans offer a swift solution, allowing you to seize opportunities without waiting for financial documentation.</p>
+                  <p>At VED, we partner with numerous lenders who will evaluate your application based on accountants' statements and self-declarations, ensuring you don't miss out on opportunities.</p>
+                  <p>To learn more about the fine print and terms and conditions, let’s get in touch.</p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
                   <img src={LoDocLoansPic} alt="" class="img-fluid" />

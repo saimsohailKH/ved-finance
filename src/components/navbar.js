@@ -80,7 +80,7 @@ function NavBar(props) {
                   </ul>
                 </li>
                 <li><a href="/service/10">Debt Removal</a></li>
-                <li><a href="/service/11">Utility Connection Service</a></li>
+                <li><a href="/service/11">SMSF Loans</a></li>
               </ul>
             </li>
             <li><a href="/about" className={activePage('about')}>About</a></li>

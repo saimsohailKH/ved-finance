@@ -28,16 +28,16 @@ function Equipment() {
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                   <h3>ASSET/EQUIPMENT FINANCE</h3>
                   <p class="fst-italic">
-                    Equipment Finance enables you to obtain financing for business equipment, machinery and vehicles (trucks and tractors). You can borrow up to 100 percent of the asset value over a fixed term and rate. It’s perfect for companies that are looking for flexible financing to improve productivity and expand their business.
+                    Equipment Finance allows you to secure funding for business equipment, machinery, and vehicles (such as trucks and tractors). You can borrow up to 100% of the asset's value over a fixed term and rate. It's an ideal solution for companies seeking flexible financing to enhance productivity and grow their business.
                   </p>
 
                   <p class="fst-italic">
-                    When it comes to purchasing assets or equipment’s for your business, it is really important to do your research with regards to the best suitable product as this will effect your business operations. A lot of businesses need machinery, equipment’s or vehicles to run their business and financing them can be the best option rather than using your working capital. Interest on business assets is an allowable expense.
+                    When purchasing assets or equipment for your business, it's crucial to research and choose the most suitable product, as this will impact your operations. Many businesses rely on machinery, equipment, or vehicles to operate effectively, and financing these assets can be a better option than depleting your working capital. Additionally, interest on business assets is considered an allowable expense.
                   </p>
 
-                  <p>There are different document requirements from lenders depending on the asset (new or used) and age of the asset.</p>
+                  <p>Lenders have varying document requirements based on the asset's type (new or used) and its age.</p>
 
-                  <p>A lot of lenders these days do Lo-doc asset/equipment loans for businesses where loans are assessed just on self declaration. If you’re looking for secured finance for transport, construction, materials handling or earthmoving equipment, connect with us and we can get you an outcome with in 24 hours.</p>
+                  <p>Many lenders now offer low-doc asset and equipment loans for businesses, where loans are evaluated based on self-declaration. If you need secured financing for transport, construction, materials handling, or earthmoving equipment, get in touch with us, and we can provide an outcome within 24 hours.</p>
                 </div>
 
                 <div class="col-lg-6 order-1 order-lg-2 text-center">

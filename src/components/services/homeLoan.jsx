@@ -27,7 +27,7 @@ function HomeLoan() {
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                   <h3>Home Loan</h3>
                   <p class="fst-italic">
-                    We understand that buying your first home is one the biggest financial decisions you will make, and it is worth to have someone by your side who will guide you with the following.
+                    We understand that buying your first home is one of the biggest financial decisions you'll ever make. It's valuable to have someone by your side to guide you through the following steps.
                     <br/>
                      - Your borrowing capacity
                     <br/>
@@ -37,20 +37,17 @@ function HomeLoan() {
                     <br/>
                      - Mistakes to avoid
                     <br/>
-                    We always get clients asking us questions and no question is silly. We are here to answer them all.
+                    Our clients often have questions, and we believe no question is silly. We're here to answer them all.
                   </p>
 
                   <ul>
                     <li><i class="bi bi-check2-all"></i> <span>Can I afford a home?</span></li>
                     <li><i class="bi bi-check2-all"></i> <span>Do I need 20% deposit?</span></li>
                     <li><i class="bi bi-check2-all"></i> <span>Can I get a home loan with a low credit score?</span></li>
-                    <li><i class="bi bi-check2-all"></i> <span>Do you think pineapple and pizza go together?</span></li>
                   </ul>
 
                   <p>
-                    You must understand that the bank you bank with might not be your best bet in securing your first home.
-                    Different banks have different policies. Some banks need 20% deposit saved whereas some will lend you up to 95% of the property.
-                    This is where we come into play, we deal with 30 plus banks, making them fight for your business.
+                    It's important to know that the bank you currently use might not be the best option for securing your first home. Banks have varying policies—some require a 20% deposit, while others might lend you up to 95% of the property's value. That's where we come in. We work with over 30 banks, ensuring they compete for your business.
                   </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">

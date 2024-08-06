@@ -35,7 +35,6 @@ function Stats() {
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-people color-pink flex-shrink-0"></i>
               <div>
-                <PureIncrement start={0} end={2000000} duration={3} className="purecounter" />
                 <p>Massive savings with great products</p>
               </div>
             </div>

@@ -28,15 +28,15 @@ function DebtRemoval() {
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                   <h3>Debt Removal</h3>
                   <p class="fst-italic">
-                    If you have bad credit, you know how hard life can become! From everyday purchases to investments in your future, your credit history can come back to haunt you. The good news is, at VED we partner with one of the best Debt Removal Agencies who can remove your bad credit, regardless of   the account is outstanding or paid. This is achieved by stating the legislation the company had breached before the negative listing was against you.
+                    If you have bad credit, you understand how challenging it can be. From everyday purchases to future investments, your credit history can be a significant obstacle. The good news is that at VED, we work with a leading Debt Removal Agency that can help eliminate your bad credit, whether the account is outstanding or paid. They achieve this by identifying any breaches of legislation by the company that led to the negative listing against you.
                   </p>
 
                   <p class="fst-italic">
-                    Once these defaults are removed, it becomes easier for you to get back to financial security.
+                    Once these defaults are removed, it becomes easier for you to regain financial security.
                   </p>
 
                   <h6>
-                    The benefits of repairing your credit report can possibly include:
+                    The benefits of repairing your credit report may include:
                   </h6>
 
                   <ul>
