@@ -1,0 +1,66 @@
+import Logo from '../assets/img/logo.png'
+import { services } from '../data/services';
+
+function Footer() {
+  return (
+    <footer id="footer" class="footer dark-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">VED Finance</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Address - 1042 Western Hwy</p>
+              <p>Caroline Springs, VIC - 3023</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>0433892312</span></p>
+              <p><strong>Email:</strong> <span>Info@vedfinancegroup.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href="https://www.facebook.com/vedfinancegroup.com.au" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/ved_finance_group?igsh=aHYxYW4xMTV4Y2Q2&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/amrinder-singh-3285565a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About us</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              {
+                services.map((s, index) => (
+                  <li key={index}><a href={`/service/${s.id}`}>{s.title}</a></li>
+                ))
+              }
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-3 footer-links">
+            <div className="footer-contact pt-3">
+              <p><b>Disclaimer: </b>VED Finance Group is a trading entity for Credit Representative number 504744 authorised under Australian Credit License 384324. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">2024 Ved Finance Group ACN 619 950 873</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          Designed by Sprial Square
+        </div>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer;
