@@ -1,6 +1,7 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import '../App.css';
-import Logo from '../assets/img/logo.png'
+import Logo from '../assets/img/logowhite.png';
+import LogoBlack from '../assets/img/logo.png'
 
 const toggleScrolled = () => {
   const selectBody = document.querySelector('body');
@@ -18,10 +19,16 @@ const mobileNavToogle = () => {
 
 function NavBar(props) {
   const { currentPage } = props;
+  const [showWhiteLogo, setShowWhiteLogo] = useState(true);
+
+  const toggleLogo = () => {
+    window.scrollY > 100 ? setShowWhiteLogo(false) : setShowWhiteLogo(true)
+  }
 
   useEffect(() => {
     document.addEventListener('scroll', toggleScrolled);
     window.addEventListener('load', toggleScrolled);
+    document.addEventListener('scroll', toggleLogo);
 
     const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
     mobileNavToogle()
@@ -54,7 +61,8 @@ function NavBar(props) {
       <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
         <a href="/" className="logo d-flex align-items-center">
-          <img src={Logo} alt="" />
+          { showWhiteLogo && <img src={Logo} alt="" id='ved-logo' /> }
+          { !showWhiteLogo && <img src={LogoBlack} alt="" id='ved-logo' /> }
         </a>
 
         <nav id="navmenu" className="navmenu">
