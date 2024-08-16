@@ -30,7 +30,7 @@ function Landing() {
           <div class="info d-flex align-items-center">
             <div class="container">
               <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 text-center mt-2">
                   <h2>VED - Vision, Education, Driven</h2>
                   <p>The VED Finance Group is based in Australia and prides itself on its Vision and Passion for finding the right solution for clients' financial needs. If you would like more information, please feel free to contact us</p>
                   <a href="#get-started" class="btn-get-started">Get Started</a>
