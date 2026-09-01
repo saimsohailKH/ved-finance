@@ -9,8 +9,9 @@ function Testimonials() {
       description: 'VED Finance Group has been an absolute game-changer for me. Amrinders expertise and dedication has made navigating complex financial decisions a breeze. Amrinder is not only knowledgeable but also incredibly supportive.'
     },
     {
+      // TODO: placeholder rewording - replace with this client's genuine review text
       title: 'Manjoot Kooner',
-      description: 'VED Finance Group has been an absolute game-changer for me. Amrinders expertise and dedication has made navigating complex financial decisions a breeze. Amrinder is not only knowledgeable but also incredibly supportive.'
+      description: 'Working with VED Finance Group made a real difference for me. Amrinder took the time to explain each step, which made some fairly complex financial decisions much easier to understand. He was knowledgeable and supportive throughout.'
     },
     {
       title: 'Charan Kamal',

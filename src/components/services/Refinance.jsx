@@ -27,10 +27,10 @@ function Refinance() {
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                   <h3>Refinance / Debt Consolidation</h3>
                   <p class="fst-italic">
-                    Try again for your benefit. Conducting a health check on your current home loan and comparing it with market options can save you thousands. Stop paying more interest than necessary; we'll help you find a lender that has your best interest in mind.
+                    Try again for your benefit. Conducting a health check on your current home loan and comparing it with market options may help reduce your interest costs. We can help you compare lenders on our panel to find an option suited to your circumstances.
                   </p>
 
-                  <h5>How can refinancing save you thousands?</h5>
+                  <h5>How could refinancing help?</h5>
 
                   <p>
                     <b>Lower repayments:</b> Securing a better interest rate means reduced repayments, increasing your household cash flow.
@@ -52,7 +52,7 @@ function Refinance() {
 
                   <ul>
                     <li><i class="bi bi-check2-all"></i> <span>A good example would be if you can combine all your repayments into one simple repayment and potentially increase your cashflow every month.</span></li>
-                    <li><i class="bi bi-check2-all"></i> <span>In this process, we work towards getting the best rate with maximum consolidation of debts and increasing your savings.</span></li>
+                    <li><i class="bi bi-check2-all"></i> <span>In this process, we work towards a competitive rate and, where appropriate, consolidating debts to help you manage your repayments.</span></li>
                   </ul>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">

@@ -31,7 +31,7 @@ function Landing() {
             <div class="container">
               <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-6 text-center">
-                  <h2>VED - Vision, Education, Driven</h2>
+                  <h1>VED - Vision, Education, Driven</h1>
                   <p>The VED Finance Group is based in Australia and prides itself on its Vision and Passion for finding the right solution for clients' financial needs. If you would like more information, please feel free to contact us</p>
                   <a href="#get-started" class="btn-get-started">Get Started</a>
                 </div>
@@ -41,15 +41,15 @@ function Landing() {
 
           <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
             <div class="carousel-item">
-              <img src={c1} alt=""/>
+              <img src={c1} alt="Mortgage broker reviewing home loan options with clients" />
             </div>
 
             <div class="carousel-item active">
-              <img src={c2} alt=""/>
+              <img src={c2} alt="Couple receiving the keys to their new home" />
             </div>
 
             <div class="carousel-item">
-              <img src={c4} alt=""/>
+              <img src={c4} alt="Family outside their newly purchased Australian home" />
             </div>
 
             <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">

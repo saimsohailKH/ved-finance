@@ -19,8 +19,8 @@ function Service() {
   const [service, setService] = useState({})
 
   useEffect(() => {
-    setService(services.find(s => s.id == id))
-  }, [])
+    setService(services.find(s => s.id === Number(id)))
+  }, [id])
 
   return (
     <>
