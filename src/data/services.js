@@ -23,7 +23,7 @@ export const services = [
   {
     id: 4,
     title: 'Refinance / Debt Consolidation',
-    description: 'Try again for your benefit. Conducting a health check on your current home loan and comparing it with market options can save you thousands...',
+    description: 'Try again for your benefit. Conducting a health check on your current home loan and comparing it with market options may help reduce your interest costs...',
     icon: 'fa-solid fa-dollar-sign',
     kind: 'Individual'
   },

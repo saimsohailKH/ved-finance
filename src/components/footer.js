@@ -1,4 +1,3 @@
-import Logo from '../assets/img/logo.png'
 import { services } from '../data/services';
 
 function Footer() {
@@ -13,13 +12,13 @@ function Footer() {
             <div class="footer-contact pt-3">
               <p>Address - 1042 Western Hwy</p>
               <p>Caroline Springs, VIC - 3023</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>0433892312</span></p>
-              <p><strong>Email:</strong> <span>Info@vedfinancegroup.com</span></p>
+              <p class="mt-3"><strong>Phone:</strong> <a href="tel:+61433892312">0433 892 312</a></p>
+              <p><strong>Email:</strong> <a href="mailto:info@vedfinancegroup.com">info@vedfinancegroup.com</a></p>
             </div>
             <div class="social-links d-flex mt-4">
-              <a href="https://www.facebook.com/vedfinancegroup.com.au" target="_blank"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/ved_finance_group?igsh=aHYxYW4xMTV4Y2Q2&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/amrinder-singh-3285565a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61577894364261" target="_blank" rel="noreferrer"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/vedfinancegroup/" target="_blank" rel="noreferrer"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/amrinder-singh-3285565a/" target="_blank" rel="noreferrer"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
 
@@ -29,8 +28,10 @@ function Footer() {
               <li><a href="/">Home</a></li>
               <li><a href="/about">About us</a></li>
               <li><a href="/services">Services</a></li>
+              {/* TODO: Terms of service still needs a real page */}
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
               <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="/privacy-policy">Privacy policy</a></li>
             </ul>
           </div>
 
@@ -47,14 +48,14 @@ function Footer() {
 
           <div class="col-lg-3 col-md-3 footer-links">
             <div className="footer-contact pt-3">
-              <p><b>Disclaimer: </b>VED Finance Group is a trading entity for Credit Representative number 504744 authorised under Australian Credit License 384324. </p>
+              <p><b>Disclaimer: </b>VED Finance Group is a registered business name of The Trustee for Aneja Family Trust (ABN 44 570 871 137). Amrinder Singh, Credit Representative Number 504743, is authorised under Australian Credit Licence 384324 held by outsource Financial Pty Ltd (ACN 131 090 705). Your complete financial situation will need to be assessed before acceptance of any proposal or product.</p>
             </div>
           </div>
         </div>
       </div>
 
       <div class="container copyright text-center mt-4">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">2024 Ved Finance Group ACN 619 950 873</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">{new Date().getFullYear()} VED Finance Group | ABN 44 570 871 137</strong> <span>All Rights Reserved</span></p>
         <div class="credits">
           Designed by Sprial Square
         </div>

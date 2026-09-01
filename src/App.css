@@ -832,6 +832,7 @@ section,
   }
 }
 
+.hero .info h1,
 .hero .info h2 {
   margin-bottom: 30px;
   padding-bottom: 30px;
@@ -840,6 +841,7 @@ section,
   position: relative;
 }
 
+.hero .info h1:after,
 .hero .info h2:after {
   content: "";
   position: absolute;
@@ -854,7 +856,8 @@ section,
 }
 
 @media (max-width: 768px) {
-  .hero .info h2 {
+  .hero .info h1,
+.hero .info h2 {
     font-size: 36px;
   }
 }

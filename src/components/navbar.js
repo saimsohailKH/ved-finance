@@ -61,16 +61,16 @@ function NavBar(props) {
       <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
         <a href="/" className="logo d-flex align-items-center">
-          { showWhiteLogo && <img src={Logo} alt="" id='ved-logo' /> }
-          { !showWhiteLogo && <img src={LogoBlack} alt="" id='ved-logo' /> }
+          { showWhiteLogo && <img src={Logo} alt="VED Finance Group" id='ved-logo' /> }
+          { !showWhiteLogo && <img src={LogoBlack} alt="VED Finance Group" id='ved-logo' /> }
         </a>
 
         <nav id="navmenu" className="navmenu">
           <ul>
             <li><a href="/" className={activePage('home')}>Home</a></li>
-            <li class="dropdown"><a href="#" className={activePage('services')}><span>Our Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li class="dropdown"><a href="/services" className={activePage('services')}><span>Our Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li class="dropdown"><a href="#"><span>For Individuals</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <li class="dropdown"><a href="/services"><span>For Individuals</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                   <ul>
                     <li><a href="/service/1">Home Loan</a></li>
                     <li><a href="/service/2">Personal Loan</a></li>
@@ -78,7 +78,7 @@ function NavBar(props) {
                     <li><a href="/service/4">Refinance / Debt Consolidation</a></li>
                   </ul>
                 </li>
-                <li class="dropdown"><a href="#"><span>For Corporates</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <li class="dropdown"><a href="/services"><span>For Corporates</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                   <ul>
                     <li><a href="/service/5">Commercial Loans</a></li>
                     <li><a href="/service/6">Cash Flow Lending</a></li>

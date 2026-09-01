@@ -15,6 +15,7 @@ import OurServices from './pages/ourServices';
 import Contact from './pages/contact';
 import Process from './pages/process';
 import Service from './pages/service';
+import PrivacyPolicy from './pages/privacyPolicy';
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path='/process' element={<Process />} />
         <Route exact path='/service/:id' element={<Service />} />
+        <Route exact path='/privacy-policy' element={<PrivacyPolicy />} />
       </Routes>
     </Router>
   );

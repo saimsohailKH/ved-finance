@@ -38,7 +38,7 @@ function Contact() {
                 <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
                   <i class="bi bi-telephone"></i>
                   <h3>Call us</h3>
-                  <p>0433892312</p>
+                  <p><a href="tel:+61433892312">0433 892 312</a></p>
                 </div>
               </div>
 
@@ -46,7 +46,7 @@ function Contact() {
                 <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
                   <i class="bi bi-envelope"></i>
                   <h3>Email us</h3>
-                  <p>info@vedfinancegroup.com</p>
+                  <p><a href="mailto:info@vedfinancegroup.com">info@vedfinancegroup.com</a></p>
                 </div>
               </div>
             </div>

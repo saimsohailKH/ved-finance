@@ -5,7 +5,7 @@ function Stats() {
     <section id="stats-counter" class="stats-counter section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Stats</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>A snapshot of our experience and the clients we have supported.</p>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -14,8 +14,7 @@ function Stats() {
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                <PureIncrement start={0} end={7} duration={3} className="purecounter" />
+                <PureIncrement start={0} end={8} duration={3} className="purecounter purecounter-plus" />
                 <p>Years of Experience</p>
               </div>
             </div>
@@ -35,7 +34,7 @@ function Stats() {
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-people color-pink flex-shrink-0"></i>
               <div>
-                <p>Massive savings with great products</p>
+                <p>Access to a panel of lenders</p>
               </div>
             </div>
           </div>
