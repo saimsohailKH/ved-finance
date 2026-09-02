@@ -57,7 +57,7 @@ export const services = [
   },
   {
     id: 9,
-    title: 'LO Doc Loan',
+    title: 'Low Doc Loan',
     description: 'Low Documentation (Low Doc) loans offer flexible financing solutions for self-employed individuals...',
     icon: 'fa-solid fa-paperclip',
     kind: 'Corporates'

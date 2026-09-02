@@ -84,7 +84,7 @@ function NavBar(props) {
                     <li><a href="/service/6">Cash Flow Lending</a></li>
                     <li><a href="/service/7">Asset / Equipment Finance</a></li>
                     <li><a href="/service/8">Line of credit / Business Overdraft</a></li>
-                    <li><a href="/service/9">LO Doc Loan</a></li>
+                    <li><a href="/service/9">Low Doc Loan</a></li>
                   </ul>
                 </li>
                 <li><a href="/service/10">Debt Removal</a></li>

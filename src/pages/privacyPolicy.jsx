@@ -2,8 +2,10 @@ import Breadcrumbs from "../components/breadcrumb";
 import NavBar from "../components/navbar";
 import backgroud from '../assets/img/page-title-bg.jpg';
 import Footer from "../components/footer";
+import usePageTitle from '../hooks/usePageTitle';
 
 function PrivacyPolicy() {
+  usePageTitle('Privacy Policy')
   const links = [
     {
       title: 'Home',

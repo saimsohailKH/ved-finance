@@ -3,8 +3,10 @@ import backgroud from '../assets/img/page-title-bg.jpg';
 import Footer from "../components/footer";
 import Breadcrumbs from "../components/breadcrumb";
 import Map from "../components/map";
+import usePageTitle from '../hooks/usePageTitle';
 
 function Contact() {
+  usePageTitle('Contact Us')
   const links = [
     {
       title: 'Home',

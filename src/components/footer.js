@@ -28,9 +28,6 @@ function Footer() {
               <li><a href="/">Home</a></li>
               <li><a href="/about">About us</a></li>
               <li><a href="/services">Services</a></li>
-              {/* TODO: Terms of service still needs a real page */}
-              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-              <li><a href="#">Terms of service</a></li>
               <li><a href="/privacy-policy">Privacy policy</a></li>
             </ul>
           </div>
@@ -57,7 +54,7 @@ function Footer() {
       <div class="container copyright text-center mt-4">
         <p>© <span>Copyright</span> <strong class="px-1 sitename">{new Date().getFullYear()} VED Finance Group | ABN 44 570 871 137</strong> <span>All Rights Reserved</span></p>
         <div class="credits">
-          Designed by Sprial Square
+          Designed by Spiral Square
         </div>
       </div>
     </footer>

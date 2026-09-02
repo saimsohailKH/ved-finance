@@ -33,7 +33,7 @@ function Refinance() {
                   <h5>How could refinancing help?</h5>
 
                   <p>
-                    <b>Lower repayments:</b> Securing a better interest rate means reduced repayments, increasing your household cash flow.
+                    <b>Lower repayments:</b> A lower interest rate may reduce your repayments, depending on the loan amount, remaining term, fees and loan structure.
                   </p>
 
                   <p>

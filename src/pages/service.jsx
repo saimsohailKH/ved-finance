@@ -13,6 +13,7 @@ import LineOfCredit from "../components/services/LineOfCredit";
 import LoDocLoans from "../components/services/LoDocLoans";
 import DebtRemoval from "../components/services/DebtRemoval";
 import SmsfLoans from "../components/services/SmsfLoans";
+import usePageTitle from '../hooks/usePageTitle';
 
 function Service() {
   const { id } = useParams()
@@ -21,6 +22,8 @@ function Service() {
   useEffect(() => {
     setService(services.find(s => s.id === Number(id)))
   }, [id])
+
+  usePageTitle(service.title || null)
 
   return (
     <>
