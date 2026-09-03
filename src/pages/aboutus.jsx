@@ -5,8 +5,10 @@ import Footer from "../components/footer";
 import Solutions from "../components/solutions";
 import Breadcrumbs from "../components/breadcrumb";
 import Stats from "../components/stats";
+import usePageTitle from '../hooks/usePageTitle';
 
 function AboutUs() {
+  usePageTitle('About Us')
   const links = [
     {
       title: 'Home',
@@ -36,7 +38,7 @@ function AboutUs() {
                 <h3>Our Story</h3>
                 <p>After facing several obstacles due to the miscommunication during my loan process for my first home, I decided to become a mortgage broker and make a difference in a clients journey. 
                    Started over eight years ago, I decided to apply and work for some of the well known investment firms to learn the craft and understand the versatility of products and suitability. 
-                   Still hasn’t stopped learning, I have been serving my own clients from last 4 years and feeling more motivated year after year. Empathy with people and understanding of emotions has helped me achieve results and grow in the process. 
+                   Still hasn’t stopped learning, with 8+ years of experience I have been serving my own clients and feeling more motivated year after year. Empathy with people and understanding of emotions has helped me achieve results and grow in the process. 
                 </p>
                 <ul>
                   <li><i class="bi bi-check-circle"></i> <span>Quality solutions that add value</span></li>
@@ -45,10 +47,6 @@ function AboutUs() {
                 </ul>
                 <p>Bonding with people, winning their trust and delivering the results is our ultimate goal with every client.</p>
 
-                <div class="watch-video d-flex align-items-center position-relative">
-                  <i class="bi bi-play-circle"></i>
-                  <a href="https://www.youtube.com" class="glightbox stretched-link">Watch Video</a>
-                </div>
               </div>
             </div>
           </div>

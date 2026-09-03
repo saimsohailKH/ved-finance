@@ -4,8 +4,10 @@ import Services from "../components/services";
 import AboutUsCoverImage from '../assets/img/page-title-bg.jpg';
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
+import usePageTitle from '../hooks/usePageTitle';
 
 function OurServices() {
+  usePageTitle('Our Services')
   const links = [
     {
       title: 'Home',

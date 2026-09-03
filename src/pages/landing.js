@@ -14,8 +14,10 @@ import c4 from '../assets/img/hero-carousel/c4.jpeg';
 import Solutions from '../components/solutions';
 import Stats from '../components/stats';
 import OurProcess from '../components/ourProcess';
+import usePageTitle from '../hooks/usePageTitle';
 
 function Landing() {
+  usePageTitle(null)
   useEffect(() => {
     AOS.init({
       duration: 1000,
